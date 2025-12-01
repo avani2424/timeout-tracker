@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Footer from "./components/footer";
-import Header from "./components/header";
-import Main from "./components/main";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 export default function Home() {
   // ✅ Lazy init — no setState in useEffect
